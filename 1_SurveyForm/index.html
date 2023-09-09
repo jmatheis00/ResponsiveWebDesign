@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for your time</p>
+    <form method="post" action="https://register-demo.freecodecamp.org" id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required class="outline"/></label>
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required class="outline"/></label>
+        <label for="number" id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="Age" class="outline"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Which option best describes your current role?
+          <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="choose" >Would you recommend freeCodeCamp to a friend?
+          <label><input type="radio" name="choose" value="definitely"/>Definitely</label>
+          <label><input type="radio" name="choose" value="maybe"/>Maybe</label>
+          <label><input type="radio" name="choose" value="notsure"/>Not sure</label>
+        </label>
+      </fieldset>
+      <fieldset>
+    <label for="openquestion">What is your favorite feature of freeCodeCamp?
+        <select id="openquestion">
+          <option value="">Select an option</option>
+          <option value="1">Challenges</option>
+          <option value="2">Projects</option>
+          <option value="3">Other</option>
+        </select>
+      </label>
+      </fieldset>
+<fieldset>
+    <label for="newfeature">Your idea for a new feature we should introduce:
+        <textarea name="newfeature" id="textarea" placeholder="here is space for your ideas..."></textarea>
+      </label>
+      </fieldset>
+      <fieldset class="lastborder">
+        <label for="tickbox" >What would you like to see improved? (Check all that apply)
+          <label><input type="checkbox" id="tickbox" value="frontend">Front-end</label>
+          <label><input type="checkbox" id="tickbox" value="backend">Back-end</label>
+          <label><input type="checkbox" id="tickbox" value="datavisual">Data Visualization</label>
+          <label><input type="checkbox" id="tickbox" value="challenges">Challenges</label>
+          <label><input type="checkbox" id="tickbox" value="other">Other</label>
+          <label>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>

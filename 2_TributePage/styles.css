@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  main {
+    width: 98%;
+    background-color: #dfdfdf;
+    padding: 1px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+  }
+  
+  figure {
+    background-color: white;
+    align-items: center;
+    width: 90%;
+    padding: 0 10px 7px 10px;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    text-align: middle;
+    padding: 10px 5px 5px 5px;
+    color: #555555;
+    font-size: 14px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: grey;
+  }
