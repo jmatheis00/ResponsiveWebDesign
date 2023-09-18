@@ -1,0 +1,139 @@
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #ddddff;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 95%;
+    background-color: #ddddff;
+    top: 0;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #header-img {
+    max-width: 300px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #nav-bar ul {
+    width: 40vw;
+  }
+  
+  .nav-link, footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .nav-link:hover, footer ul li a:hover {
+    color: grey;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+  }
+  
+  .hero input[type='email'] {
+    width: 80%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hero input[type='submit'] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #bbbbee;
+  }
+  
+  .hero input[type='submit']:hover {
+    color: white;
+  }
+  
+  .usp h1::first-letter {
+    color: white;
+  }
+  
+  .usp h1 {
+    margin-bottom: 0;
+    padding-top: 10px;
+  }
+  
+  .usp p {
+      margin-top: 8px;
+      margin-left: 20px;
+  }
+  
+  .video {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer {
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  
+  footer ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul li {
+    padding: 0 5px;
+  }
+  
+  footer > span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    color: grey;
+  }
+  
+  @media (max-width: 650px) {
+    #nav-bar ul {
+      flex-direction: column;
+      }
+    .video iframe {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    header {
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    .hero {
+        padding-top: 160px;
+    }
+    .video iframe {
+      width: 90%;
+    }
+  }
