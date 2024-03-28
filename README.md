@@ -1,5 +1,5 @@
 1. [Survey Form Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/blob/main/1_SurveyForm/index.html)
 2. [Tribute Page Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/blob/main/2_TributePage/index.html)
 3. [Technical Documentation Page Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/tree/main/3_TechnicalDocumentationPage/index.html)
-4. [Product Landing Page Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/tree/main/4_ProductLandingPage/index.html)
+4. [Product Landing Page Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/blob/main/4_ProductLandingPage/index.html)
 5. [Personal Portfolio Demo](https://htmlpreview.github.io/?https://github.com/jmatheis00/ResponsiveWebDesign/blob/main/5_PersonalPortfolio/index.html)
